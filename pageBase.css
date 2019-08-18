@@ -1,0 +1,42 @@
+﻿
+/*
+@import url('webFont.css');
+*/
+/* =Base
+============================================================================== */
+
+/* =General
+	-------------------------------------------------------------------------- */
+
+html {
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+body {
+    height: 100%;
+    font-family: "Microsoft YaHei Light", sans-serif;
+    color: #333333;
+}
+
+.clear {
+    clear: both;
+}
+
+.li_last {
+    margin-right: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 1200px;
+    overflow: hidden;
+}

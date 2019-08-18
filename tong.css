@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+html,body{ padding:0px; margin:0px; font-family:"微软雅黑";font-size:14px;letter-spacing:1px;}
+a{text-decoration:none;}
+h1,h2,h3{ font-weight:normal;}
+ol, ul, li {list-style: none outside none;padding:0;margin:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img{ border:none; padding:0px; margin:0px;max-width:100%;}
+p,h1,h2,h3{ padding:0px; margin:0px;}
+a:hover{text-decoration:none;}
+i{font-style:normal;}
+a:link { text-decoration:none;}
+input[type="text"],textarea{font-size:13px;outline:none;padding:0;margin:0;}
+.clearfix{clear:both;}

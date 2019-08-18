@@ -1,0 +1,910 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0431)https://rytk20.kuaishang.cn/bs/im.htm?cSource=9&sendSourceEnterChat=false&skin=%231D65D4&ri=733278951&rId=733278951&cas=122797___747681&lang=zh_CN&pc=&chm=dir&fi=125215&dp=http%3A%2F%2Fwww.0531dljz.com%2F&_d=1566092303433&cn=%E9%BB%98%E8%AE%A4%E4%BB%A3%E7%A0%81&isNewDir=true&cSourceTitle=%E8%B4%A2%E5%8A%A1%E4%B9%8B%E5%AE%B6-%E5%BC%80%E5%85%AC%E5%8F%B8%7C%E5%85%AC%E5%8F%B8%E6%B3%A8%E5%86%8C%7C%E6%B3%A8%E5%86%8C%E5%85%AC%E5%8F%B8 -->
+<html xmlns:ks="" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="robots" content="noindex,nofollow">
+	<link id="chatCssFile" rel="stylesheet" type="text/css" media="all" href="./index.css">
+	<link id="chatCssFile2" rel="stylesheet" type="text/css" media="all" href="./tong.css">
+	<link rel="stylesheet" type="text/css" media="all" href="./diy_select.css">
+	<style>
+		.kschatwindowstandard_bg .kschatwindowstandard_popup{width:340px;height:480px;}
+		.kschatwindowstandard_bg .kschatwindowstandard_popup{margin-left:-170.0px;margin-top:-240.0px;}
+		.kschatwindowstandard_bg .kschatwindowstandard_popup .kschatwindowstandard_popup_header{background-color:#1D65D4}
+		.kschatwindowstandardmini_bg .kschatwindowstandard_popup .kschatwindowstandard_popup_header{background-color:#1D65D4}
+		.kschatwindowstandard_chatrecord_cus .kschatwindowstandard_chatrecord_msg{background-color:#1D65D4}
+		.kschatwindowstandard_footer_sendbox .kschatwindowstandard_footer_send{background-color:#1D65D4}
+		.kschatwindowstandard_chatrecord_msg .kschatwindowstandard_after_right_icon{background-color:#1D65D4}
+		.kschatwindowstandard_popup_evaluate_btn{background-color:#1D65D4}
+		.kschatwindowstandard_footer_sendbox .kschatwindowstandard_turn_manual{color:#1D65D4}
+		.kschatwindowstandard_bg .kschatwindowstandard_line_up .kschatwindowstandard_line_up_btn{background-color:#1D65D4}
+		.kschatwindowstandard_bg .kschatwindowstandard_line_up .kschatwindowstandard_line_up_btn:hover{background-color:#1D65D4}
+		.kschatwindowstandard_bg .kschatwindowstandard_line_up .kschatwindowstandard_line_up_circle{border-color:#1D65D4;box-shadow: 0 0 8px #1D65D4;background-color:#1D65D4}
+		.kschatwindowstandard_bg .kschatwindowstandard_popup .kschatwindowstandard_popup_content{height:420px;}
+		.kschatwindowstandardmini_bg .kschatwindowstandard_popup .kschatwindowstandard_popup_content{height:430px;}
+		/* verifyCode */
+		.oc_comm_win_verify{width:310px;margin-left:-155px;z-index:11002;position:absolute;left:50%;top:30%;background-color:#fff;}
+		.oc_comm_win_verify td{font-size:14px;vertical-align:middle;}
+		.oc_comm_win_verify_t{height:30px;line-height:30px;font-weight:bold;color:white;padding-left:10px;background:#1D65D4;}
+		.oc_comm_win_verify_n{line-height:20px;padding: 20px 25px 20px 65px;}
+		.oc_comm_win_verify_c input{border:1px #D0D0D0 solid;background-color:white;}
+		.oc_comm_win_verify_b{font-size:12px;height:40px;text-align:center;}
+		.oc_comm_win_verify_b input{font-size:12px;border:0px;width:64px;cursor:pointer;height:22px;padding:0px;margin:0px;background:url("https://rytk20.kuaishang.cn/bs/images/chat/green/code_bg.gif") no-repeat 0px -78px;}
+
+        /*迷你验证码样式修改*/
+        .kschatwindowstandardmini_bg .oc_comm_win_verify{width:300px !important;margin-left:-150px !important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_t{font-size:14px !important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_n{font-size:13px !important;padding:12px 20px !important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_c{padding:0px 0 20px 0px!important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_logo{bottom:74px !important;right:26px !important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_success{right:0px !important;bottom:29px !important;}
+        .kschatwindowstandardmini_bg .oc_comm_win_verify_fail{right:0px !important;bottom:29px !important;}
+		/* 消息显示 -- 历史分隔 */
+		.his_msg{
+			margin:0 auto;
+			line-height:20px;
+			clear:both;
+			color:#8a8a8a;
+			word-break: break-all;
+			padding-top:12px;
+			position:relative;
+			*zoom:1;
+		}
+		.his_msg .before{
+			background:url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/dir_his.gif) left center no-repeat;
+			width:80px;
+		}
+		.his_msg .after{
+			background:url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/dir_his.gif) right center no-repeat;
+			width:80px;
+		}
+		.weixinAccount_arrow:before{
+	        box-sizing: content-box;
+	        width: 0px;
+	        height: 0px;
+	        position: absolute;
+	        bottom: -16px;;
+	        right:53px;
+	        padding:0;
+	        border-top:8px solid #FFFFFF;
+	        border-bottom:8px solid transparent;
+	        border-left:8px solid transparent;
+	        border-right:8px solid transparent;
+	        display: block;
+	        content:'';
+	        z-index: 12;
+	    }
+	    .weixinAccount_arrow:after{
+	        box-sizing: content-box;
+	        width: 0px;
+	        height: 0px;
+	        position: absolute;
+	        bottom: -18px;;
+	        right:52px;
+	        padding:0;
+	        border-top:9px solid #cccccc;
+	        border-bottom:9px solid transparent;
+	        border-left:9px solid transparent;
+	        border-right:9px solid transparent;
+	        display: block;
+	        content:'';
+	        z-index:10
+	    }
+	</style>
+	<script type="text/javascript">
+		var KS={"adMsg1":"","adMsg2":"","adScrollDir":0,"adScrollInterval":3,"addFavourite":false,"addNoLogo":true,"afCustomTitle":"\u5feb\u5546\u901a\u5728\u7ebf\u5ba2\u670d","autoPrompt":false,"chatMsgStyle":0,"chatStyle":1,"chatWinStyle":3,"cls":false,"connWaitTime":0,"customeUrl":"http://www.kuaishang.cn","customerMsg":"#0000FF","customerName":"#008000","cutpic":true,"cwAdvAuthCode":false,"cwAdvAuthCodeEnable":false,"cwAdvDiaNameEnale":true,"cwAdvSound":false,"cwAdvVicCols":[],"cwAdvVicCopyWriting":"","cwAdvVicDis":"","cwAdvVicEnable":false,"cwAdvVicMobileEnable":false,"cwAdvVicPCEnable":false,"cwAdvVicReq":"","cwDisCsName":"\u5728\u7ebf\u5ba2\u670d","cwEffectVibration":false,"cwInvitedShow":false,"cwMbInputFixed":false,"cwMbRetainHtml":false,"cwOffline":"\u6ca1\u6709\u5ba2\u670d\u4eba\u5458\u5728\u7ebf","cwOfflineEnable":true,"cwWxEnable":false,"cwWxIcon":"upload/747681/twodimensionalCode/190423133708.png","cwfcVisitorName":"#0000FF","dialogCallVisible":false,"dialogChatSkin":"","dialogEndContent":"\u611f\u8c22\u60a8\u7684\u54a8\u8be2\uff0c\u795d\u60a8\u6109\u5feb\uff0c\u518d\u89c1\uff01","dialogEndEnable":true,"dialogInputRow":0,"dialogQQNumber":"","dialogSendImgVisible":false,"dialogSendQQVisible":false,"dialogServiceEvaluateVisible":false,"dialogWeChatPhotoUrl":"","dialogWeChatTips":"","dialogWeChatVisible":false,"dirAdMsg":"\u6b22\u8fce\u5149\u4e34\uff01\u60a8\u5df2\u7ecf\u8fdb\u5165\u670d\u52a1\u961f\u5217\uff0c\u5927\u6982\u9700\u898115\u79d2。<BR>\u5982\u679c\u60a8\u5bf9\u6211\u4eec\u7684\u4ea7\u54c1\u6216\u8005\u670d\u52a1\u6709\u4efb\u4f55\u610f\u89c1\u6216\u8005\u5efa\u8bae\uff0c\u6b22\u8fce\u968f\u65f6\u4e0e\u6211\u4eec\u5728\u7ebf\u53d6\u5f97\u8054\u7cfb\uff01","emotions":true,"enabled":false,"entAddr":"","entFax":"","entMsn":"","entPhone":"","entQq":"","enterRobot":"\u60a8\u597d\uff0c\u6211\u662f{r}\uff0c\u60a8\u5df2\u8fdb\u5165\u81ea\u52a9\u670d\u52a1\uff0c\u5f88\u9ad8\u5174\u80fd\u4e3a\u60a8\u670d\u52a1\uff01","exitPrompt":true,"faq":false,"fastask":false,"favouriteWindow":false,"fileServerPath":"https://rytk20.kuaishang.cn/","fontset":true,"fpcConnType":0,"fpcEnabled":false,"fpcUrl":"","freeCall":false,"gc2CodeConfigWinForm":{"cardContent1":"","cardContent2":"","cardName1":"\u4f01\u4e1a\u540d\u7247","cardName2":"\u81ea\u5b9a\u4e49","codeCommWordForm":[],"codeId":125215,"dirLogoSrc":"","layoutHeight":480,"layoutWidth":340,"marginBottom":0,"marginLeft":0,"positionType":2,"textColor":"#ffffff","themeColor":"#1D65D4","winStyle":1,"winType":1},"gc2MobileNewChatCfgFrom":null,"gcChatWinAdSetListForms":[],"groupCols":0,"groupIds":"","groupTitle":"","hasBdPromoteAuth":false,"hasOnlineFreePhone":false,"hasWyIdentifyCode":false,"isExist":false,"keywords":"","languageType":"zh_CN","leaveMsg":true,"leaveWordurl":"http://kuaishang.cn","leftAd1Custom":"<DIV style=\"HEIGHT: 100%; WIDTH: 170px; BACKGROUND-COLOR: #3da2dc\"><IMG width=170 src=\"http://www.kuaishang.com.cn/cusimg/ks_online_left.jpg\" border=0><\/DIV><A href=\"http://kf.kuaishang.cn/\" target=_blank>\r\n<DIV style=\"CURSOR: pointer; HEIGHT: 30px; WIDTH: 100px; BACKGROUND-IMAGE: url(data:image/gif;base64,AAAA); POSITION: absolute; LEFT: 35px; TOP: 504px\"><\/DIV><\/A>","leftAd1Link":"","leftAd1Type":0,"leftAd1Url":"","logoLink":"http://www.kuaishang.cn","logoUrl":"","map":false,"maxViewNum":5,"mcExchangePositionForms":[{"id":0,"itemType":"GROUP","siteId":0},{"id":0,"itemType":"ADVERTISE1","siteId":0},{"id":0,"itemType":"ADVERTISE2","siteId":0}],"mcVisitorFastAskForms":[],"noAnswer":"\u5bf9\u4e0d\u8d77\uff0c\u6211\u8fd8\u4e0d\u4f1a\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u8bf7\u548c\u6211\u4eec\u7684\u5ba2\u670d\u4eba\u5458\u8054\u7cfb。","noReceive":"\u60a8\u597d\uff01\u6211\u662f{r}\uff0c\u6682\u65f6\u65e0\u4eba\u63a5\u5f85\u60a8\u7684\u5bf9\u8bdd\uff0c\u5f88\u9ad8\u5174\u7531\u6211\u6765\u4e3a\u60a8\u670d\u52a1\uff01\r\n\u8bf7\u8f93\u5165\u60a8\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5e2e\u60a8\u641c\u7d22\u5230\u9002\u5408\u7684\u7b54\u6848。\r\n\u6211\u4eec\u7684\u5ba2\u670d\u4eba\u5458\u5c06\u5728\u7a7a\u95f2\u540e\u53ca\u65f6\u5730\u4e3a\u60a8\u670d\u52a1\uff01","noReceiveTimeout":0,"noResponse":"\u60a8\u597d\uff01\u6211\u662f{r}\uff0c\u5ba2\u670d\u4eba\u5458\u6682\u65f6\u5fd9\u788c\u4e2d\uff0c\u5f88\u9ad8\u5174\u7531\u6211\u6765\u4e3a\u60a8\u670d\u52a1\uff01\r\n\u8bf7\u8f93\u5165\u60a8\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5e2e\u60a8\u641c\u7d22\u5230\u9002\u5408\u7684\u7b54\u6848。\r\n\u6211\u4eec\u7684\u5ba2\u670d\u4eba\u5458\u5c06\u5728\u7a7a\u95f2\u540e\u53ca\u65f6\u5730\u4e3a\u60a8\u670d\u52a1\uff01\r\n","noResponseTimeout":0,"oldBackEnable":0,"oldBackText":"","onlineConsult":true,"onlineFileNum":4,"other":"#FF8000","print":false,"r1AutoContent":"<div>\u5ba2\u670d\u4eba\u5458\u9a6c\u4e0a\u4f1a\u63a5\u5f85\u60a8\u7684\u5bf9\u8bdd\uff0c\u8bf7\u7a0d\u5019\uff01<\/div>","r1EnableTimeInterval":true,"r1TimeInterval":15,"r2AutoContent":"<p style=\"font-size: 9pt;\">\u6b63\u5728\u89e3\u7b54\u56de\u590d\u4e2d\u8bf7\u7a0d\u7b49\uff0c\u60a8\u4e5f\u53ef\u62e8\u6253\u6211\u4eec400\u7535\u8bdd\u54a8\u8be2\u6216\u6dfb\u52a0\u6211\u4eec\u5fae\u4fe1\uff0c\u5fae\u4fe1\u53f7\u662f\uff1ac13375410861\uff08\u957f\u6309\u53ef\u590d\u5236\uff09<img src=\"http://cwstyle.caiwuchina.com/w/img/ewm.jpg\" alt=\"\" width=\"100\" height=\"100\" /><\/p>","r2EnableTimeInterval":true,"r2TimeInterval":30,"r3AutoContent":"<p>\u5df2\u7ecf\u5f88\u4e45\u6ca1\u6709\u6536\u5230\u60a8\u7684\u8baf\u606f\uff0c\u8bf7\u95ee\u60a8\u8fd8\u5728\u5417\uff1f\u60a8\u4e5f\u53ef\u62e8\u6253\u6211\u4eec400\u7535\u8bdd\u54a8\u8be2\u6216\u6dfb\u52a0\u6211\u4eec\u5fae\u4fe1\uff0c\u5fae\u4fe1\u53f7\u662f\uff1ac13375410861\uff08\u957f\u6309\u53ef\u590d\u5236\uff09<img src=\"http://cwstyle.caiwuchina.com/w/img/ewm.jpg\" alt=\"\" width=\"100\" height=\"100\" /><\/p>","r3EnableTimeInterval":true,"r3TimeInterval":2,"r3TimeIntervalSecond":0,"r4AutoContent":"<div>\u5df2\u7ecf\u5f88\u4e45\u6ca1\u6709\u6536\u5230\u60a8\u7684\u6d88\u606f\uff0c\u8bf7\u95ee\u60a8\u8fd8\u5728\u7535\u8111\u65c1\u5417\uff1f<br />\u5982\u679c\u6ca1\u6709\u5176\u5b83\u95ee\u9898\uff0c\u7cfb\u7edf\u5c06\u4e3b\u52a8\u7ed3\u675f\u672c\u6b21\u5bf9\u8bdd。<br />\u5982\u679c\u6709\u95ee\u9898\uff0c\u6b22\u8fce\u60a8\u518d\u6b21\u5411\u6211\u54a8\u8be2<br />\u795d\u60a8\u6109\u5feb\uff0c\u518d\u89c1\uff01<\/div>","r4CloseTimeInterval":20,"r4EnableClose":true,"r4EnableTimeInterval":true,"r4TimeInterval":15,"r4TimeIntervalSecond":0,"r5AutoContent":"<p style=\"font-size: 9pt;\">\u60a8\u597d\uff0c\u6211\u6b63\u5728\u63a5\u542c\u7535\u8bdd\uff0c\u8bf7\u60a8\u7a0d\u7b49\uff01<br />\u7a0d\u540e\u5c06\u9a6c\u4e0a\u56de\u590d\u60a8\u7684\u95ee\u9898\uff01<\/p>","r5EnableTimeInterval":true,"r5TimeInterval":100,"repeatSend":"\u5bf9\u4e0d\u8d77\uff0c\u60a8\u53d1\u9001\u7684\u4fe1\u606f\u5df2\u91cd\u590d\uff0c\u8bf7\u67e5\u770b\u8bb0\u5f55。  ","respCsLn":"","responseText":"\u60a8\u53d1\u9001\u7684\u95ee\u9898\u5305\u542b\u654f\u611f\u5173\u952e\u8bcd\u4fe1\u606f\uff0c\u8be5\u5173\u952e\u8bcd\u5df2\u7ecf\u88ab\u8fc7\u6ee4\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165\u65b0\u7684\u95ee\u9898   ","rightAd1Custom":"<A href=\"http://www.kuaishang.cn/zxkf/ctb\" target=_blank><IMG width=170 src=\"https://ksimg.oss-cn-beijing.aliyuncs.com/www/ks_online_right.jpg\" border=0><\/A> \r\n<DIV style=\"WIDTH: 170px; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px\">\r\n<DIV style=\"_height: 17px\"><IMG src=\"https://ksimg.oss-cn-beijing.aliyuncs.com/www/ks_succ_case_title.jpg\" border=0> <\/DIV><\/DIV>\r\n<DIV style=\"WIDTH: 170px; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px\">\r\n<DIV style=\"_height: 35px\"><A href=\"http://www.kuaishang.cn/cases/\" target=_blank><IMG src=\"https://ksimg.oss-cn-beijing.aliyuncs.com/www/ks_succ_case1.jpg\" border=0><\/A> <\/DIV><\/DIV>\r\n<DIV style=\"WIDTH: 170px; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px\"><\/DIV>","rightAd1Link":"http://www.kuaishang.cn","rightAd1Type":0,"rightAd1Url":"http://file6.kuaishang.cn/images/chat/ad/oc_ad1.gif","rightAd2Link":"http://www.kuaishang.cn","rightAd2Url":"http://file6.kuaishang.cn/images/chat/ad/oc_ad2.gif","robotBsEnabled":true,"robotEnabled":false,"robotMsg":true,"robotName":"\u5546\u5b9d","saverecord":true,"selectedGroup":[],"sendfile":true,"sendimg":true,"serviceassess":true,"setId":125644,"shortMsg":false,"showGroup":false,"skinId":"blue","smsNum":50,"switchWinType":false,"title":"\u5728\u7ebf\u5ba2\u670d\u5bf9\u8bdd\u7a97\u53e3","translate":true,"valuationItem":["\u975e\u5e38\u6ee1\u610f","\u6ee1\u610f","\u4e00\u822c","\u8f83\u5dee","\u6781\u5dee"],"viewColumn":1,"visitorMsg":"#000000","isUseVCA":1,"vca":{"vcaQuestions":[],"vcaGuideOvertimeReply":[{"content":"\u4f60\u597d\uff01\u8bf7\u95ee\u6709\u4ec0\u4e48\u53ef\u4ee5\u5e2e\u4f60\u7684\u5462\uff1f"}],"vcaInfo":{"vcaAutoTurnCount":0,"vcaName":"\u5c0f\u5feb","vcaLogo":"https://robotkf.kuaishangkf.com","vcaUnknown":"","hasHelpful":false,"vcaAutoTurnCountReplay":"","vcaGuideOvertime":5}},"__isDebug":false,"__isInTest":false,"iRepc":true,"__fi":125215,"__gr":"","__grs":"","__gn":"","__ln":"","__si":122797,"__ci":747681,"__basePath":"https://rytk20.kuaishang.cn/bs/","__webSocketPath":"wss://rytk20.kuaishang.cn/websocket","__filePath":"https://rytk20.kuaishang.cn/bs/onlinecs/visitorChat/visitorSendFile2.do","__cDom":"rytk20.kuaishang.cn","__cPot":443,"__cPat":"/bs/onlinecs/visitorChat/visitorSendImg.do","__lng":"zh_CN","__cas":"122797___747681","__w":"","__h":"","__dp":"http://www.0531dljz.com/","__fd":false,"__sid":"1A8383626E11C709CDB66DB28405924E-null","__its":"","__cd":"","__isMobile":false,"ism":false,"useVCAPage":false,"useNewVCAPage":true,"isNewVs":false,"visitorSign":"ca0fcf2f4b9f4a5c8181e27bef002b2f","__ref":"","__cur":"","__vt":1566092303115,"__cs":"9","__valNums":5,"__ri":"733278951","__entName":"","__preKnow":true,"__ns":0,"__cn":"\u9ed8\u8ba4\u4ee3\u7801","__rns":0,"ipCountry":"\u6c5f\u82cf\u5357\u4eac","__showDpne":false,"__showDpnt":0,"ksvcode":"PbBFvo1566092303067","vt":0,"sendSourceEnterChat":false,"__rbid":141357,"robotFirstAccept":false,"compLogo":"upload/747681/logo/190613114922.png","af_oc_sbrobotphone":false};
+		KS.groupAdvisoryPri = false;
+        KS.mobileAnalogDialogEnable = false;
+        KS.unconnFlag = KS.groupAdvisoryPri || KS.mobileAnalogDialogEnable;
+        KS.cdnFilePath = 'https://rytk20.kuaishang.cn/bs/';
+		KS.isDir=true;
+		KS.is2015=true;
+		KS.cls=false;//清除屏幕强制不显示了
+		KS.ksJsonCountNum = 0;
+		KS.ksScriptId = 'k_s_o_pluploader';
+		KS.isNewChatDir=false;//是否是直接对话框
+		
+		    KS.isNewChatDir=true;
+   		
+   		KS.dirLogoSrc = '';
+   		KS.cwFcPageDefault = false;
+  		
+   		KS.dialogEndFreecall = false;
+		
+		KS.formType={
+			'TEXTFIELD': '0',
+			'TEXTAREA': '1',
+			'SELECT': '2',
+			'RADIO': '3',
+			'CHECKBOX': '4',
+			'CHECKBOXLIST': '5'
+		};
+		var correctDiySelect,infoScroll;
+  		
+  			delete KS.cwAdvVicPCEnable;
+   		
+	</script>
+	
+	<script src="./langscript_zh_CN.js" type="text/javascript"></script>
+	<script src="./common.js" type="text/javascript"></script>
+	<script src="./checkBeforeChat.js" type="text/javascript"></script>
+	<script src="./reconnecting-websocket.js" type="text/javascript"></script>
+	  
+	<script src="./webChatNew.js" type="text/javascript"></script><script type="text/javascript" charset="utf-8" src="./plupload.full.min.js" id="k_s_o_pluploader0"></script><script type="text/javascript" charset="utf-8" src="./plupload.full.min(1).js" id="k_s_o_pluploader1"></script></head><body onload="ksComm.showAlt();initAlt()"><div id="ksSwfDivid"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="0" height="0" id="ksSwfObjid" class="noswap"><param name="movie" value="https://rytk20.kuaishang.cn/bs/js/online/code/test.swf"><param name="FlashVars" value="fName=ks_122797___747681"><param name="BGColor" value="FFFFFF"><param name="quality" value="high"><param name="Scale" value="NoBorder"><param name="allowScriptAccess" value="always"><embed src="https://rytk20.kuaishang.cn/bs/js/online/code/test.swf" flashvars="fName=ks_122797___747681" quality="high" width="0" height="0" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" name="ksSwfObjid" allowscriptaccess="always"></object></div><audio id="SysSoundPlayer" src="https://rytk20.kuaishang.cn/bs/sound/sound000.mp3"></audio>
+	<script src="./playvoice.js" type="text/javascript"></script>
+	<!-- <script src="https://rytk20.kuaishang.cn/bs/js/plupload/plupload.full.min.js?v=ks20181227" type="text/javascript"></script> -->
+	<!--[if IE 6]><script src="https://rytk20.kuaishang.cn/bs/js/plupload/DD_belatedPNG.min.js" type="text/javascript"></script><![endif]-->
+	<script src="./diy_select.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	if(ksComm.browser.msie6){
+		function belatedPNG(){
+		        DD_belatedPNG.fix(".k_s_ol_pngFix,.k_s_ol_pngFix:hover");
+		}
+		belatedPNG();
+	}
+	try{
+	//监听窗口信息
+		ksComm.addEvent(window,'message',function(e){
+			try{
+				var msg = e.data;
+				if(msg)eval(msg);
+			}catch (e) {}
+		});
+		parent.postMessage('KS.wins[4].show()','*');
+	}catch (e) {}
+		
+		function setMiniTitle(){
+			try{
+				parent.postMessage('document.getElementById("dirSmallTitle").innerHTML="'+(ksOnlineChat.curChatTitle||"")+'"','*');
+			}catch(e){}
+		}
+	   function showSendSel(){
+	 	  var o=document.getElementById('ocSendMsgDiv');
+	 	  o.style.display=o.style.display=='block'?'none':'block';
+	   }
+	  function send_c_click(o,t){
+	 	var es=o.getElementsByTagName('div');
+	 	if(es && es[0])es[0].className='cur';
+	 	if(t==0){
+	 		o.nextSibling.getElementsByTagName('div')[0].className='';
+	 	}else{
+	 		o.previousSibling.getElementsByTagName('div')[0].className='';
+	 	}
+	 }
+	 function evaluationOver(index){
+	 	for(var i = 0;i<KS.__valNums;i++){
+		 	var evaluationStar = ksComm.$('evaluationSpan'+i);
+		 	if(i<index){
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_checked.png) no-repeat';
+		 	}else if(i==index){
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_over.png) no-repeat';
+		 	}else{
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_unchecked.png) no-repeat';
+		 	}
+	 	}
+	 	//this.style.background='url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_over.png)'
+	 }
+	 function evaluationOut(index){
+		 for(var i = 0;i<KS.__valNums;i++){
+		 	var evaluationStar = ksComm.$('evaluationSpan'+i);
+		 	if(i<(index-1)){
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_checked.png) no-repeat';
+		 	}else if(i==(index-1)){
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_over.png) no-repeat';
+		 	}else{
+		 		evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_unchecked.png) no-repeat';
+		 	}
+	 	}
+	 }
+	 function evaluationCheck(index){
+	 	for(var i=0;i<KS.__valNums;i++){
+			var r = ksComm.$('val'+i);
+			var evaluationStar = ksComm.$('evaluationSpan'+i);
+			if(i<=index){
+			 	evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_checked.png) no-repeat';
+			}else{
+				evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_unchecked.png) no-repeat';
+			}
+			if(i==index)r.checked = true;
+			else r.checked = false;
+		}
+	 }
+	 function evaluationDivOut(){
+	 	var check = false;
+	 	for(var i=0;i<KS.__valNums;i++){
+			var r = ksComm.$('val'+i);
+			if(r.checked == true){
+				for(var j=0;j<KS.__valNums;j++){
+					var evaluationStar = ksComm.$('evaluationSpan'+j);
+					if(j<=i){
+					 	evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_checked.png) no-repeat';
+					}else{
+						evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_unchecked.png) no-repeat';
+					}
+				}
+				check = true;
+				break;
+			}
+		}
+		if(!check){
+			for(var j=0;j<KS.__valNums;j++){
+				var evaluationStar = ksComm.$('evaluationSpan'+j);
+				evaluationStar.style.background = 'url(https://rytk20.kuaishang.cn/bs/images/dchat/comm/stars_unchecked.png) no-repeat';
+			}
+		}
+	 }
+     function initAlt(){
+      	var _altlayer = ksComm.$('_altlayer');
+      	_altlayer.style.cssText=_altlayer.style.cssText+'z-index:99999;';
+		if(KS.addNoLogo){
+			ksComm.$("cnt").style.paddingBottom=0;
+			if(KS.gc2CodeConfigWinForm&&KS.gc2CodeConfigWinForm.winType==1){
+				ksComm.$('ksDirSendBtn').style.bottom = '13px';
+				ksComm.$('ksEditInstance').style.height = '50px';
+			}
+		}else{
+            if(KS.gc2CodeConfigWinForm&&KS.gc2CodeConfigWinForm.winType==1){
+                ksComm.$('ksEditInstance').style.height = '33px';
+                ksComm.$('ksDirSendBtn').style.bottom = '35px';
+             }
+		}
+	}
+	</script>
+	<script type="text/javascript">
+		 function reConnDialog(){
+		 	if(ksOnlineChat.endDialogFromVca){
+				KS.useVCAPage = true;
+				ksOnlineChat.robotReceiving = 2;
+				KS.setVisitorValueToCookie('KS_isvca',ksOnlineChat.isvca||'');
+			}else{
+				ksOnlineChat.robotReceiving = 0;
+			}
+			KS.inReceived = true;
+			var _params = {};
+			if(KS.getConnParams){
+				_params = KS.getConnParams();
+			}
+			_params['rec'] = 1;	//1代表是重连
+			_params['isNewVs'] = false;
+			_params['visitorId'] = KS.visitorSign;
+		 	_params['formConnBtn'] = true;
+			if(ksOnlineChat.chatStatus == 1 || ksOnlineChat.chatStatus == 5){
+				_params.c=KS.__c||'';
+			}
+			ksOnlineChat.chatStatus = 4;
+			ksOnlineChat.lastReceiveMsg = null;
+			ksOnlineChat.connChat(_params);
+			//add by hnl 2017-09-20 31期对话结束升级
+			ksComm.$("kschat_enddialog").style.display="none";
+		 	ksComm.$("ksEditPanelContent").style.display="";
+		 }
+		 function toLeavemsg(){
+		 	if(KS.ocCfg.btnVisible.leaveMsg==true && KS.lmCfg.lmDefinedEnabled==true){
+				window.open(KS.lmCfg.lmDefinedUrl,ksComm.browser.msie?'':'leaveMsg','');
+			}else if(KS.ocCfg.btnVisible.leaveMsg==true){
+				ksComm.addEvent(ksComm.$('oc_icon_leaveMsg'),'click',function(obj){
+					ksOnlineChat.openOtherWin('leavemsg.htm',!KS.switchWinType);
+				});
+			}
+		 }
+	</script>
+	<style>
+		/*enddialog start*/
+		.kschat_enddialog{text-align:center;padding:9px 0 9px;border-top:1px #f0f0f0 solid;background: #fff;}
+		.kschat_enddialog .kschat_enddialog_tips{font-size:12px;color:#4c4c4c;padding-bottom:9px;}
+		.kschat_enddialog .kschat_enddialog_project{padding:0 30px;overflow:hidden;list-style: none;}
+		.kschat_enddialog .kschat_enddialog_project li{float:left;width:25%;text-align:center;}
+		.kschat_enddialog .kschat_enddialog_project li i{cursor:pointer;display:inline-block;width:50px;height:50px;margin-bottom:5px;}
+		.kschat_enddialog .kschat_enddialog_project li p{color:#76b9ff;font-size:12px;cursor:pointer;}
+		.kschat_enddialog .kschat_enddialog_project .kschat_service_evaluation{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_evaluate.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project .kschat_new_dialog{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_continue.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project .kschat_free_phone{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_freecall.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project .kschat_leavemsg{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_leavemess.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project li:hover p{color:#76b9ff;}
+		.kschat_enddialog .kschat_enddialog_project li:hover .kschat_service_evaluation{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_evaluate.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project li:hover .kschat_new_dialog{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_continue.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project li:hover .kschat_free_phone{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_freecall.png") no-repeat;background-size:50px 50px;}
+		.kschat_enddialog .kschat_enddialog_project li:hover .kschat_leavemsg{background:url("https://rytk20.kuaishang.cn/bs/images/diaend/icon_new_leavemess.png") no-repeat;background-size:50px 50px;}
+		/*enddialog end*/
+	</style>
+	<script src="./toolbarFreePhone.js" type="text/javascript"></script>
+	<style>
+		/* freephone */
+		.ksfree_calls{width: 133px;position: absolute;top:6px;right:8px;font-size: 14px;}
+		.ksfree_calls input{padding: 5px 8px;height: 24px;border: 1px solid #1D65D4;color:#1D65D4!important;font-size: 12px;border-right: none;border-radius: 20px;cursor: pointer;width: 100%;padding-right: 25px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;outline:none;*padding:0;*width:112px;*padding-top:5px;*padding-left:8px;*display:inline-block;*position: absolute;*left: 0;*top:0;*height:18px;}
+		.ksfree_calls ::-webkit-input-placeholder{color:#b9bec5;}
+		.ksfree_calls .ksfree_calls_logo{padding: 0;background: #1D65D4;border-radius: 20px;border-left: none;border-top-left-radius: 0px;border-bottom-left-radius: 0px;height: 24px;line-height: 24px;color: #fff;width: 25px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;position: absolute;right: 0;top:0;cursor:pointer;}
+		.ksfree_calls .ksfree_calls_logo s{display: block;width:12px;height:12px;background: url('https://rytk20.kuaishang.cn/bs/images/dchat/comm/icon_new_phone.png') no-repeat;margin-left: 6px;margin-top: 6px;}
+		.ksfree_calls_explain{position: absolute;letter-spacing:0;top:-128px;background: #fff;right:0px;width:237px;padding:12px 8px;box-shadow: 0px 4px 12px rgba(0,0,0,0.2);-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;display:none;line-height:normal;*border:1px solid #e7e7e7;border:1px solid #e7e7e7\9;*width:250px;}
+		.ksfree_calls_explain p{color:#1a1a1a;font-size:13px;}
+		.ksfree_calls_explain ul{font-size:12px;list-style: none;margin:0;padding:0;border-bottom:1px solid #f2f2f2;color:#aaa;padding:8px 0 10px;}
+		.ksfree_calls_explain ul li{margin: 1px 0;}
+		.ksfree_calls_explain ul li i{background:url('https://rytk20.kuaishang.cn/bs/images/dchat/comm/icon_rounddot.png') no-repeat;display: inline-block;width:8px;height:8px;margin-right: 4px;*margin-top:-12px;}
+	</style>
+	<!--[if IE]> <style>.ksfree_calls_explain{*top:-130px;top:-148px\9\0;} </style> <![endif]-->
+	<style>
+		@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+			/* IE10+ CSS styles go here */
+			.ksfree_calls_explain{top:-148px;}
+		}
+	</style>
+  
+
+  
+    <!--bg start-->
+
+	
+   		
+		    <div class="kschatwindowstandard_bg kschatwindowstandardmini_bg" id="kschatwindowstandard_bg">
+		      
+        
+            
+            
+                <div id="oc_comm_win_verify" class="oc_comm_win_verify aa10" style="display:none;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr>
+                        <td class="oc_comm_win_verify_t" style="text-align:left;">对话验证</td>
+                      </tr>
+                      <tr>
+                        <td class="oc_comm_win_verify_n" style="font-size:14px;border-left:1px #D0D0D0 solid;border-right:1px #D0D0D0 solid;"><img src="./code_icon.png" style="position: absolute;left:18px;top:52px;">为了给您提供更好的对话服务，请您先填写下方的验证码</td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" class="oc_comm_win_verify_c" style="font-size:13px;text-align:left;padding-left:23px;padding-bottom:23px;border:1px #D0D0D0 solid;border-top:0px;">
+                               验证码:
+                               <input id="ksVerifyInput" style="margin-right:5px;outline: none;width:79px;height:22px;line-height:22px;vertical-align:middle;">
+                               <img id="ksVerifyImg" align="top">
+                               <a style="color:#43AFF1;margin-left:2px;cursor:pointer;text-decoration:underline;font-size:12px;" id="ksVerifyRefresh">
+                               更换验证码</a>
+                        </td>
+                      </tr>
+                      </tbody></table>
+                </div>
+            
+        
+    
+   		
+   		
+   	
+        <div class="kschatwindowstandard_popup">
+            <!--header start-->
+            <div class="kschatwindowstandard_popup_header">
+                <div class="kschatwindowstandard_popup_header_left" id="oc_top_title"><div class="kschatwindowstandard_popup_header_left_post">	<img src="./190613114922.png" width="40" height="40" alt=""></div><span style="display:inline-block;width:210px;overflow: hidden;height: 40px;line-height: 40px;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis;overflow: hidden;">在线客服</span></div>
+                <div class="kschatwindowstandard_popup_header_right">
+                	
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--header end-->
+            <!--content start-->
+            <div class="kschatwindowstandard_popup_content">
+            	
+               		
+               		
+		                <div class="ksproblemdistribution_popup_content_left">
+               		
+               	
+                    <div class="ksproblemdistribution_problem_header"></div>
+                    <ul class="ksproblemdistribution_problem_list">
+						
+                    </ul>
+           		</div>
+                <!--content_left start-->
+                
+               		
+               		
+		                <div class="kschatwindowstandard_popup_content_left" id="kschatwindowstandard_popup_content_left" style="width: 100%; padding-right: 0px;">
+               		
+               	
+                    
+                   
+                    
+                   	<!--chatrecord start-->
+                    <div class="kschatwindowstandard_chatrecord" id="chatOutput">
+                        
+                        <!--chatrecord_header end-->
+                        <div id="chatContent" class="kschatwindowstandard_popup_outdiv kschatwindowstandard_popup_outdiv1">
+                        	
+								    
+								   		
+								   		<div id="welcom1" class="welcom1">欢迎光临！您已经进入服务队列，大概需要15秒。<br>如果您对我们的产品或者服务有任何意见或者建议，欢迎随时与我们在线取得联系！</div>
+								     
+						   		
+								    
+							          
+							         
+							        
+							          
+							         
+							        
+							          
+							         
+							        
+						   		
+						     <div id="onlineChatArea" style=" position:relative">
+						        <div id="chatTopArea" style=" position:relative">
+							  		<div id="msgArea"><div class="kschatwindowstandard_chatrecord_cs" id="1908180931243793">	<div class="kschatwindowstandard_chatrecord_title">    	<span>在线客服  09:31:24</span>	</div>	<div class="kschatwindowstandard_chatrecord_msg">		<div class="kschatwindowstandard_before"></div>		<span><div>在线客服人员马上会接待您的对话，请稍候</div></span></div><span class="spanicon"></span></div><div class="kschatwindowstandard_chatrecord_msg_tip other_msg">    <div class="kschatwindowstandard_chatrecord_tipmsg">在线客服 正在为您服务</div><span class="spanicon"></span></div></div>
+						  	</div></div>
+                        </div>
+                    </div>
+                    <!--chatrecord end-->
+                    <!--chatrecord_loading start-->
+                    <div class="kschatwindowstandard_chatrecord_loading" id="kschatwindowstandard_chatrecord_loading" style="display: none;">
+                        <i></i>
+                        <span>正在连接客服，请稍候...</span>
+                    </div>
+                    <div class="kschatwindowstandard_loading_mask" id="kschatwindowstandard_loading_mask" style="display: none;"></div>
+                    <!--chatrecord_loading end-->
+                    <!--footer_sendbox start-->
+                    <div class="kschatwindowstandard_footer_sendbox" id="userOptiv">
+                        <!--footer_inputsend start-->
+                        <div class="kschatwindowstandard_footer_inputsend" id="ksEditPanelContent">
+                            <div>
+                                <div class="kschatwindowstandard_footer_feature" style:"position:relative;"="" id="ksEditPanel"><div unselectable="on" style="position: absolute; height: 0px;"></div><div unselectable="on" class="nicEdit-panelContain" style="position: relative; height: 100%;"><div unselectable="on" class="nicEdit-button-default" title="&lt;ks:ln k=&quot;oc_editor_emotions_title&quot;&gt;表情&lt;/ks:ln&gt;" linkdiv="emotions_link" style="font-size: 12px; position: relative; font-family: Tahoma; float: left; white-space: nowrap; margin: 2px 6px; cursor: pointer;"><img src="./icon_emoji.png" border="0" style="vertical-align: text-bottom;"></div><div unselectable="on" class="nicEdit-button-default" title="&lt;ks:ln k=&quot;oc_editor_sendimg_title&quot;&gt;发送图片&lt;/ks:ln&gt;" id="ksSendImg" check="true" style="font-size: 12px; position: relative; font-family: Tahoma; float: left; white-space: nowrap; margin: 2px 6px; cursor: pointer; z-index: 1;"><img src="./icon_photo.png" border="0" style="vertical-align: text-bottom;"></div><div unselectable="on" class="nicEdit-button-default" title="&lt;ks:ln k=&quot;oc_editor_sendfile_title&quot;&gt;发送文件&lt;/ks:ln&gt;" id="ksSendFile" check="true" style="font-size: 12px; position: relative; font-family: Tahoma; float: left; white-space: nowrap; margin: 2px 6px; cursor: pointer; z-index: 1;"><img src="./icon_upload.png" border="0" style="vertical-align: text-bottom;"></div><div unselectable="on" class="nicEdit-button-default" title="&lt;ks:ln k=&quot;oc_editor_msgsound_title&quot;&gt;声音&lt;/ks:ln&gt;" id="ksMsgsound" check="true" style="font-size: 12px; position: relative; font-family: Tahoma; float: left; white-space: nowrap; margin: 2px 6px; cursor: pointer;"><img src="./icon_ring_close.png" border="0" style="vertical-align: text-bottom;"></div><div unselectable="on" class="nicEdit-button-default" title="&lt;ks:ln k=&quot;oc_editor_serviceassess_title&quot;&gt;评价&lt;/ks:ln&gt;" style="font-size: 12px; position: relative; font-family: Tahoma; float: left; white-space: nowrap; margin: 2px 6px; cursor: pointer;"><img src="./icon_evaluation.png" border="0" style="vertical-align: text-bottom;"></div><div id="html5_1dih6073n1dv11rbr1td5v5h1d8f3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 2px; left: 35px; width: 18px; height: 16px; overflow: hidden; z-index: 0;"><input id="html5_1dih6073n1dv11rbr1td5v5h1d8f3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" accept=""></div><div id="html5_1dih607651av8moj1rvg3bvie3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 2px; left: 65px; width: 18px; height: 16px; overflow: hidden; z-index: 0;"><input id="html5_1dih607651av8moj1rvg3bvie3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" accept=""></div></div></div>
+                                <!-- <a href="javascript:void(0);" id="kschatwindowstandard_turn_manual" onclick="ksOnlineChat.gotoOnline();" class="kschatwindowstandard_turn_manual" style="display:none;">转人工</a> -->
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="sendMsgDiv">
+	                            <div id="ksEditInstance" class="kschatwindowstandard_sendcontent" placeholder="请输入您的问题..." name="note" contenteditable="true" style="height: 50px; overflow-x: hidden; overflow-y: auto; word-wrap: break-word; border: 0px;"></div>
+	                            <div id="ksDirSendBtn" class="kschatwindowstandard_footer_send" unselectable="on" onclick="onlineChatIns.sendMsg();" style="bottom: 13px;"><ks:ln k="oc_send">发 送</ks:ln></div>
+                            </div>
+                        </div>
+                        
+                        <!--footer_inputsend end-->
+                        <!--footer_enddialog start-->
+						<div class="kschat_enddialog" id="kschat_enddialog" style="display:none;">
+						    <div class="kschat_enddialog_tips">本次对话已结束！您可以：</div>
+						    <ul class="kschat_enddialog_project">
+								
+	  						        <li onclick="ksOnlineChat.openServiceEvaluateWin(false,false,true);" style="width: 33%;">
+	  						            <i class="kschat_service_evaluation"></i>
+	  						            <p>服务评价</p>
+	  						        </li>
+                    			
+						        <li onclick="reConnDialog()" ;="" style="width: 33%;">
+						            <i class="kschat_new_dialog"></i>
+						            <p>继续对话</p>
+						        </li>
+                    			
+  						        <li onclick="ksOnlineChat.openLeaveWin();" style="width: 33%;">
+  						            <i class="kschat_leavemsg"></i>
+  						            <p>在线留言</p>
+  						        </li>
+						        <div class="clearfix"></div>
+						    </ul>
+						</div>
+                        <!--footer_enddialog end-->
+                    </div>
+                    <!--footer_sendbox end-->
+                </div>
+                <!--content_left end-->
+                <!--content_right start-->
+                <div class="kschatwindowstandard_popup_content_right" id="kschatwindowstandard_popup_content_right" style="width: 0px;">
+                    <ul class="tabList" id="menu" style="position:relative;z-index:1;">
+                		
+                		
+                		
+                	</ul>
+                    <div id="cnt" class="tabCon" style="padding-bottom: 0px;">
+                    	
+                        
+                		
+                    </div>
+                    
+                </div>
+                
+                <div class="clearfix"></div>
+                <!--content_right end-->
+            </div>
+            <!--content end-->
+		    <!--line_up start-->
+		   	<div class="kschatwindowstandard_line_up" id="ks_ordermsg" style="z-index:999;position:absolute;top:50px;left:0;display:none;">
+		    </div>
+		    <!--line_up end-->
+        </div>
+    </div>
+    <!--bg end-->
+    <!-- 右侧卡片标签一及标签二 -->
+	
+	
+  	<script language="javascript">
+  		/** 右侧卡片的点击事件 */
+		function rightTab(){
+		    var menu = ksComm.$('menu').getElementsByTagName('li'),
+	            cnt = ksComm.$('cnt').getElementsByTagName('div'),
+	            i, j, len = menu.length,bindclick;
+	        if(menu && menu.length > 0){
+	        	if(ksComm.$("ks_dir_t_link_left"))ksComm.$("ks_dir_t_link_left").style.display = 'none';
+	            var width;
+	            if(len == 3){
+	                width = '33.3%';
+	            }
+	            if(len == 2){
+	                width = '50%';
+	            }
+	            if(len == 1){
+	                width = '100%';
+	            }
+	            for (var i = 0; i < menu.length; i++){
+	                menu[i].index = i;
+	                menu[i].style.width = width;
+	                menu[i].className = '';
+	                menu[i].onclick = function(){
+	                    bindclick(this.index);
+	                }
+	            }
+	            ksComm.$("kschatwindowstandard_chatrecord_loading").style.right='240px';
+	        }else{
+	            ksComm.$("kschatwindowstandard_popup_content_left").style.width='100%';
+                ksComm.$("kschatwindowstandard_popup_content_left").style.paddingRight=0;
+	            if( ksComm.$("newcsList_standard"))ksComm.$("newcsList_standard").style.right=0;
+	            ksComm.$("kschatwindowstandard_popup_content_right").style.width=0;
+                ksComm.$('ksEditInstance').style.height = '33px';
+                ksComm.$('ksDirSendBtn').style.bottom = '35px';
+	            if(ksComm.$("ks_dir_t_link_left"))ksComm.$("ks_dir_t_link_left").style.display = '';
+	        }
+		    bindclick = function(i) {
+		        menu[i].onclick = function() {
+		            for (j = 0; j < len; j++) {
+		                menu[j].className = menu[j].className.replace('active', '');
+		                cnt[j].style.display = 'none';
+		            }
+		            cnt[i].style.display = 'block';
+		            menu[i].className += 'active';
+		        }
+		    };
+		    for (i = 0; i < len; i++) {
+		        bindclick(i);
+		    }
+		    if(menu && menu.length > 0){
+		    	menu[0].click();
+			}
+		}
+		rightTab();
+		/** 常见问题点击事件 */
+		function ShowFLT(i) {
+		    lbmc = ksComm.$('LM' + i);
+	        var icon = prevSibling(lbmc).lastChild;
+		    if (lbmc.style.display == 'none') {
+		        LMYC();
+		        lbmc.style.display = '';
+	            icon.style.background = 'url("https://rytk20.kuaishang.cn/bs/images/webChat/icon_problem_arrow_down.png") no-repeat center';
+		    }
+		    else {
+		        lbmc.style.display = 'none';
+	            icon.style.background = 'url("https://rytk20.kuaishang.cn/bs/images/webChat/icon_problem_arrow_right.png") no-repeat center';
+		    }
+		    if(ksComm.$('ocwsIframe'+i)){
+		    	var ocwsIframe = window.frames['ocwsIframe'+i];
+		    	var frameDoc = ocwsIframe.document;
+		    	var docWidth = Math.max(Math.max(
+				        Math.max(frameDoc.body.scrollWidth, frameDoc.documentElement.scrollWidth),
+				        Math.max(frameDoc.body.offsetWidth, frameDoc.documentElement.offsetWidth))
+				);
+				var docHeight = Math.max(
+				        Math.max(frameDoc.body.scrollHeight, frameDoc.documentElement.scrollHeight),
+				        Math.max(frameDoc.body.offsetHeight, frameDoc.documentElement.offsetHeight)
+				);
+		    	ksComm.$('ocwsIframe'+i).height = docHeight;
+	    		ksComm.$('ocwsIframe'+i).width = docWidth;
+		    }
+		}
+	  	var number = 0; //定义条目数
+		function prevSibling(node) {//获取上一个节点
+	      var tempFirst = node.parentNode.firstChild;
+	      if (node == tempFirst) return null;
+	      var tempObj = node.previousSibling;
+	      while (tempObj.nodeType != 1 && tempObj.previousSibling != null) {
+	        tempObj = tempObj.previousSibling;
+	      }
+	      return (tempObj.nodeType==1)? tempObj:null;
+	    }
+		function LMYC() {
+			var lbmc;
+		    for (i = 1;i <= number; i++) {
+		        lbmc = ksComm.$('LM' + i);
+	            var icon = prevSibling(lbmc).lastChild;
+		        lbmc.style.display = 'none';
+	            icon.style.background = 'url("https://rytk20.kuaishang.cn/bs/images/webChat/icon_problem_arrow_right.png") no-repeat center';
+		    }
+		}
+		(function(){
+			/**填充右侧卡片标签一标签二及常见问题内容，使用iframe主要是不让页面中样式影响客户设置的样式，如果有其他更好的解决方法，后期看如何优化*/
+		    if(ksComm.$('menuIframe1')){
+		    	var menuIframe1 = window.frames['menuIframe1'];
+		        menuIframe1.document.write('');
+		        menuIframe1.document.close();
+		    	menuIframe1.document.body.style.overflow = 'auto';
+		    	menuIframe1.document.body.style.position = 'absolute';
+		    	menuIframe1.document.body.style.fontSize = '13px';
+		    	menuIframe1.document.body.style.fontFamily = '微软雅黑';
+                menuIframe1.document.body.style.color = '#5b5b5b';
+                menuIframe1.document.body.style.padding = '14px 5px 0';
+                menuIframe1.document.body.style.letterSpacing = '1px';
+                menuIframe1.document.body.style.background = '#fff';
+                menuIframe1.document.body.style.margin = '8px';
+                menuIframe1.document.body.style.minWidth = '200px';
+		    }
+		    if(ksComm.$('menuIframe2')){
+		    	var menuIframe2 = window.frames['menuIframe2'];
+		        menuIframe2.document.write('');
+		        menuIframe2.document.close();
+		    	menuIframe2.document.body.style.overflow = 'auto';
+		    	menuIframe2.document.body.style.position = 'absolute';
+		    	menuIframe2.document.body.style.fontSize = '13px';
+		    	menuIframe2.document.body.style.fontFamily = '微软雅黑';
+		    	menuIframe2.document.body.style.color = '#5b5b5b';
+                menuIframe2.document.body.style.padding = '5px';
+                menuIframe2.document.body.style.lineHeight = '22px';
+		    	menuIframe2.document.body.style.letterSpacing = '1px';
+                menuIframe2.document.body.style.textIndent = '13px';
+                menuIframe2.document.body.style.margin = '8px';
+                menuIframe2.document.body.style.minWidth = '200px';
+		    }
+		    
+		})();
+		/** 关闭企业信息提示 */
+		function ksIconClose(){
+	        var kschatwindowstandard_chatrecord_header = ksComm.$("kschatwindowstandard_chatrecord_header");
+	        kschatwindowstandard_chatrecord_header.style.display = "none";
+	    }
+	</script>
+
+  <!--evaluate begin-->
+  	
+   		
+		    <div class="kschatwindowstandardmini_bg">
+   		
+   		
+   	
+  	<div class="kschatwindowstandard_popup_evaluate" id="oc_se_win">
+		<img id="oc_se_cancle" src="./icon_close_popup.png" class="kschatwindowstandard_popup_evaluate_close" width="14" height="14" alt="">
+		<div class="kschatwindowstandard_popup_evaluate_content">
+			<p class="kschatwindowstandard_popup_evaluate_inquiry">您对本次服务满意吗？</p>
+          	<div class="kschatwindowstandard_popup_evaluate_starshow">
+				<input type="hidden" value="" id="serviceEvaluate_num">
+              	<p class="kschatwindowstandard_star_evaluation" onmouseover="rate(this,event)">
+                  	<img src="./icon_starmini_off.png" alt="">
+                  	<img src="./icon_starmini_off.png" alt="">
+                  	<img src="./icon_starmini_off.png" alt="">
+                  	<img src="./icon_starmini_off.png" alt="">
+                  	<img src="./icon_starmini_off.png" alt="">
+              	</p>
+              	<div class="kschatwindowstandard_text_evaluation">请选择评价</div>
+          	</div>
+          	<ul id="kschatwindowstandard_popup_evaluate_praise" class="kschatwindowstandard_popup_evaluate_praise">
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_praise"></i>
+                  	<span>好评</span>
+              	</li>
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_comment"></i>
+                  	<span>中评</span>
+              	</li>
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_bad"></i>
+                  	<span>差评</span>
+              	</li>
+          	</ul>
+          	<ul id="kschatwindowstandard_popup_evaluate_satisfied" class="kschatwindowstandard_popup_evaluate_satisfied">
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_satisfied"></i>
+                  	<span>满意</span>
+              	</li>
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_general_satisfied"></i>
+                  	<span>一般</span>
+              	</li>
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_notsatisfied"></i>
+                  	<span>不满意</span>
+              	</li>
+          	</ul>
+          	<ul id="kschatwindowstandard_popup_evaluate_handsatisfied" class="kschatwindowstandard_popup_evaluate_handsatisfied">
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_handsatisfied"></i>
+                  	<span>满意</span>
+              	</li>
+              	<li class="kschatwindowstandard_popup_evaluate_list">
+                  	<i class="kschatwindowstandard_popup_evaluate_list_handnosatisfied"></i>
+                  	<span>不满意</span>
+              	</li>
+          	</ul>
+			<input type="hidden" value="" id="serviceEvaluate" name="serviceEvaluate">
+	        <textarea class="kschatwindowstandard_popup_evaluate_proposal" placeholder="您觉得我们还有哪些地方需要改进呢？" name="serviceEvaluateDesc" id="serviceEvaluateDesc" defaultval="您觉得我们还有哪些地方需要改进呢？" onblur="ksComm.blurInputEvent(this)" onfocus="ksComm.focusInputEvent(this)"></textarea>
+          	<div id="oc_se_submit" class="kschatwindowstandard_popup_evaluate_btn">评价</div>
+      	</div>
+  	</div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+<style>
+/* visitor info */
+
+	
+	    .oc_comm_win_panel{width:313px;margin-left:-156px;z-index:11002;position:absolute;left:50%;top:30%;background-color:white;}
+	
+	
+
+.oc_comm_win_panel td{font-size:12px;vertical-align:middle;padding:3px;}
+.oc_comm_win_panel .oc_vi_main{margin:5px;padding:0px;text-align:center;}
+.oc_comm_win_panel .oc_vi_main .title{padding:12px 10px 17px 10px;font-size:14px;color:#777777}
+.oc_comm_win_panel_t{height:30px;line-height:30px;font-weight:bold;color:white;padding-left:10px;background: #1D65D4;}
+.oc_vi_btn_tb_c input{width:90px;line-height:22px;height:28px;cursor:pointer;}
+.oc_comm_win_panel .lm_inputCls {border: 1px solid #D5D5D5;width:179px;height:22px;}
+#oc_vi_submit{background-color:#1D65D4;color:#FFFFFF;border:1px #1D65D4 solid;background:#1D65D4;}
+#oc_vi_cancle{background-color:#FFFFFF;color:#777777;border: 1px solid #D5D5D5;background:#FFFFFF;}
+#visitorInfo_ul li{list-style:none outside none;}
+.revise_sp{color:red;}
+</style>
+
+	
+	
+		
+			
+			    <div id="oc_comm_win_panel" class="oc_comm_win_panel" style="display:none;width:315px;">
+			
+			
+		
+	        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	          <tbody><tr>
+	            <td class="oc_comm_win_panel_t" style="text-align:left;font-size:13px;padding-left:10px;">访客信息</td>
+	          </tr>
+	          <tr>
+	            <td valign="top" id="oc_comm_win_panel_c">
+	            	<div id="visitorInfoArea" class="oc_vi_main">
+				      <form id="visitorInfoForm" method="post" onsubmit="return false;">
+				        <div class="title">您好！为了给您提供更优质的服务，请您填写以下信息：</div>
+				        
+							
+							    
+							    
+							
+							
+						
+						<table width="300" border="0" cellspacing="0" cellpadding="0">
+				        
+				        
+				        
+				        
+				        
+				        
+				        </table>
+				        <div style="text-align:center;padding:6px 10px;"><table cellspacing="0" width="100%"><tbody><tr><td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0" class="oc_vi_btn_tb">
+				            <tbody><tr>
+				              <td align="center" class="oc_vi_btn_tb_c"><input id="oc_vi_submit" type="button" class="oc_vi_btn" value="开始咨询"></td>
+				            </tr>
+				          </tbody></table></td><td align="left"><table width="80" border="0" cellspacing="0" cellpadding="0" class="oc_vi_btn_tb">
+				            <tbody><tr>
+				              <td align="center" class="oc_vi_btn_tb_c"><input id="oc_vi_cancle" type="button" class="oc_vi_btn" value="下次再说"></td>
+				            </tr>
+				          </tbody></table></td></tr></tbody></table><div class="ks-clear"></div></div>
+				      </form>
+				      </div>
+	            </td>
+	          </tr>
+	        </tbody></table>
+	    </div>
+	
+
+
+  <div id="oc_se_bgDiv"></div>
+  <!--evaluate end-->
+  <!--raty start-->
+	<script type="text/javascript">
+	function rate(obj,oEvent){
+	    var imgSrc = 'https://rytk20.kuaishang.cn/bs/images/webChat/icon_starmini_off.png';
+	    var imgSrc_2 = 'https://rytk20.kuaishang.cn/bs/images/webChat/icon_starmini_on.png';
+	    var hitstxt = [];
+	    
+        	hitstxt[5]='非常满意';
+        
+        	hitstxt[4]='满意';
+        
+        	hitstxt[3]='一般';
+        
+        	hitstxt[2]='较差';
+        
+        	hitstxt[1]='极差';
+        
+	    var hints = ['<img src="https://rytk20.kuaishang.cn/bs/images/webChat/icon_poor_very.png" alt=""/>'+hitstxt[1],'<img src="https://rytk20.kuaishang.cn/bs/images/webChat/icon_poor.png" alt=""/>'+hitstxt[2],'<img src="https://rytk20.kuaishang.cn/bs/images/webChat/icon_generally.png" alt=""/>'+hitstxt[3],'<img src="https://rytk20.kuaishang.cn/bs/images/webChat/icon_satisfied.png" alt=""/>'+hitstxt[4],'<img src="https://rytk20.kuaishang.cn/bs/images/webChat/icon_satisfied_very.png" alt=""/>'+hitstxt[5]];
+	    var e = oEvent || window.event;
+	    var target = e.target || e.srcElement;
+	    var imgArray = obj.getElementsByTagName("img");
+	    var serviceEvaluate_num = ksComm.$('serviceEvaluate_num');
+	    for(var i = 0;i<imgArray.length;i++){
+	        imgArray[i].setAttribute('_num',i);
+	        imgArray[i].onclick = function(){
+	        	var v = parseInt(this.getAttribute('_num'))+1;
+	        	serviceEvaluate_num.value = v;
+	        	ksComm.$('serviceEvaluate').value = hitstxt[v];
+	        }
+	    }
+	    if(target.tagName == "IMG"){
+	    	var _num = target.getAttribute('_num');
+	        for(var j = 0;j<imgArray.length;j++){
+	            if(j <= _num){
+	                imgArray[j].src = imgSrc_2;
+	            }else{
+	                imgArray[j].src = imgSrc;
+	            }
+	            var info = hints[_num];
+	            if(ksComm.browser.msie){
+	            	next = obj.nextElementSibling||obj.nextSibling;
+	            }else{
+	            	next = obj.nextSibling.nextSibling;
+	            }
+	            next.innerHTML = info;
+	        	target.parentNode.onmouseout = function(){
+	        	    var imgnum = parseInt(serviceEvaluate_num.value);
+	                for(n = 0;n<imgArray.length;n++){
+	                    imgArray[n].src = imgSrc;
+	                }
+	                for(n = 0;n < imgnum;n++){
+	                    imgArray[n].src = imgSrc_2;
+	                }
+	                if(isNaN(imgnum)){
+	                    next.innerHTML = '请选择评价'
+	                }else{
+	                    next.innerHTML = hints[imgnum-1];
+	                }
+	            }
+	        }
+	    }else{
+	    	return false;
+	    }
+	}
+	function ksGetElementsByClassName(target,ele,classname){
+	    if(!target||!ele||!classname)return null;
+	    var eles = target.getElementsByTagName(ele);
+	    var r = [];
+	    if(eles&&eles.length>0){
+	        for(var i=0;i<eles.length;i++){
+	            if(eles[i].className==classname){
+	                r.push(eles[i]);
+	            }
+	        }
+	    }
+	}
+	//修改结束对话根据配置控制显示与否后的样式
+	(function(){
+		try{
+			//var k = ['serviceassess','dialogEndFreecall','leaveMsg'];
+			var k = ['serviceassess','dialogEndFreecall'];
+			var j=4;
+			for(var i=0;i<k.length;i++){
+				if(!KS[k[i]])j=j-1;
+			}
+			var v = parseInt(1/j*100);
+			var li = document.getElementById('kschat_enddialog').getElementsByTagName('li');
+			if(li&&li.length>0){
+				for(var i=0;i<li.length;i++){
+					li[i].style.width = v + '%';
+				}
+			}
+		}catch(e){};
+	})();
+	</script>
+	 
+	
+
+
+<div style="display: none">
+	<script type="text/javascript">
+
+
+
+</script>
+</div>
+<div id="_altlayer" style="display: none; border: 1px solid rgb(0, 0, 0); background-color: rgb(255, 255, 204); font-size: 12px; position: fixed; z-index: 99999;"></div></body></html>
